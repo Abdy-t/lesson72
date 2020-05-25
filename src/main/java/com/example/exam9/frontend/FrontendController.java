@@ -1,8 +1,5 @@
 package com.example.exam9.frontend;
 
-import com.example.exam9.domain.message.Message;
-import com.example.exam9.domain.message.MessageRepository;
-import com.example.exam9.domain.message.MessageService;
 import com.example.exam9.domain.user.*;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +23,8 @@ import java.util.UUID;
 public class FrontendController {
 
     private final UserService userService;
-    private final PropertiesService propertiesService;
-    private final MessageService messageService;
     private final UserRepository userRepository;
     private final ResetRepository resetRepository;
-    private final MessageRepository messageRepository;
     @Autowired
     RestTemplate restTemplate;
 

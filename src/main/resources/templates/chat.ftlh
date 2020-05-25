@@ -24,9 +24,9 @@ styles=["/css/main.css","/css/style.css" ,"/css/bootstrap.min.css", "https://fon
                             </#if>
                         </div>
 
-<#--                        <#if _csrf??>-->
-<#--                            <input type="hidden" name="${(_csrf.parameterName)!'csrf'}" value="${(_csrf.token)!'--no-token--'}"/>-->
-<#--                        </#if>-->
+                        <#if _csrf??>
+                            <input type="hidden" name="${(_csrf.parameterName)!'csrf'}" value="${(_csrf.token)!'--no-token--'}"/>
+                        </#if>
                         <div class="form-group">
                             <label for="exampleInputEmail1" class="flex flex-v-center ">Comment</label>
                             <input type="text" name="text" class="form-control" id="exampleInputEmail1" aria-describedby="text"  autofocus >

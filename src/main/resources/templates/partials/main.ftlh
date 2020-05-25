@@ -16,7 +16,7 @@
     </head>
     <body>
     <div class="container">
-        <h1>FORUM</h1>
+        <h1>Chat box</h1>
         <#nested>
 
     </div>
